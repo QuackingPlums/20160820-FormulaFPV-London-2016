@@ -196,19 +196,9 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
-.sup {
-	position: relative;
-	bottom: 0.5em;
-	font-size: 0.8em;
-	color: #f0652f;
-}
-
-.sub {
-	position: relative;
-	top: 0.3em;
-	font-size: 0.8em;
-	color: #f0652f;
-}
+small, sub, sup { font-size: .83em }
+sub { vertical-align: sub }
+sup { vertical-align: super }
 
 
 /* COMMON STYLES */
